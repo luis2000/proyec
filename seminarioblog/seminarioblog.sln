@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminarioblog", "seminarioblog\seminarioblog.csproj", "{C3250FD1-0BA8-40F2-B924-7F8E993FA64D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seminarioblog.Tests", "seminarioblog.Tests\seminarioblog.Tests.csproj", "{7AFE5DBE-40CD-4879-B4E2-6CCE2DF62722}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3250FD1-0BA8-40F2-B924-7F8E993FA64D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3250FD1-0BA8-40F2-B924-7F8E993FA64D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3250FD1-0BA8-40F2-B924-7F8E993FA64D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3250FD1-0BA8-40F2-B924-7F8E993FA64D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AFE5DBE-40CD-4879-B4E2-6CCE2DF62722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AFE5DBE-40CD-4879-B4E2-6CCE2DF62722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AFE5DBE-40CD-4879-B4E2-6CCE2DF62722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AFE5DBE-40CD-4879-B4E2-6CCE2DF62722}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

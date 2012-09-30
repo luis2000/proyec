@@ -1,0 +1,38 @@
+﻿@model seminarioblog.Models.contenido
+
+@{
+    ViewBag.Title = "Registrar";
+}
+
+<h2>Registrar</h2>
+
+
+<fieldset>
+    <legend>
+        Registrar Contenido
+    </legend>
+    <table>
+        @using (Html.BeginForm())
+        {
+            <tr>
+                <td>
+                    Titulo
+                </td>
+                <td>
+                    @Html.TextBoxFor(a=>a.titulo)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Contenido
+                </td>
+                <td>
+                    @Html.TextAreaFor(a=>a.content)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" ><input type="submit" value="Enviar" /></td>
+            </tr>
+        }
+    </table>
+</fieldset>
